@@ -3,9 +3,16 @@
 ## Description
 
 This is a web spider tool written in python.\
-Please run this script using python3 and above.
+Please run this tool using python3 and above.
 
-## Comman Line Arguments
+## Imports
+
+- mechanize
+- sys
+- argparse
+- termcolor.colored
+
+## Command Line Arguments
 
     positional arguments:
     website               Target website URL (E.g: mysite.com, https://www.mysite.com, etc)
@@ -27,24 +34,16 @@ Please run this script using python3 and above.
 
 **Display help message:**
 
-```
-python3 dirBuster.py -h
-```
+    python3 dirBuster.py -h
 
 **Scan `mysite.com`:**
 
-```
-python3 dirbuster.py mysite.com
-```
+    python3 dirbuster.py mysite.com
 
 **Set recursion depth to 3:**
 
-```
-python3 dirbuster.py mysite.com -rd 3
-```
+    python3 dirbuster.py mysite.com -rd 3
 
 **Set custom wordlist:**
 
-```
-python3 dirbuster.py mysite.com -l WORDLIST_PATH
-```
+    python3 dirbuster.py mysite.com -l WORDLIST_PATH
