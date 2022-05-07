@@ -7,10 +7,10 @@ Please run this tool using python3 and above.
 
 ## Imports
 
-- mechanize
-- sys
-- argparse
-- termcolor.colored
+    - mechanize
+    - sys
+    - argparse
+    - termcolor.colored
 
 ## Command Line Arguments
 
