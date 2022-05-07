@@ -99,7 +99,7 @@ if __name__ == "__main__":
         description="Description: Python Web Spider"
     )
     # Add the parameters positional/optional
-    parser.add_argument("website", help="Target website URL (E.g: youtube.com, https://www.google.com, etc)", type=str)
+    parser.add_argument("website", help="Target website URL (E.g: mysite.com, https://www.mysite.com, etc)", type=str)
     parser.add_argument('-l', '--wordlist', help="Path to wordlist file", type=str, default="")
     parser.add_argument('-rd', '--recursion-depth', help="Depth limit for recursive enumeration", type=int, default=2)
     parser.add_argument('-t', '--timeout', help="Time limit for web requests", type=int, default=1)
